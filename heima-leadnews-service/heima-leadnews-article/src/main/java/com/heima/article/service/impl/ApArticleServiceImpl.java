@@ -3,11 +3,12 @@ package com.heima.article.service.impl;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.heima.article.mapper.ApArticleMapper;
+
 import com.heima.article.service.ApArticleService;
-import com.heima.common.constants.ArticleConstants;
-import com.heima.model.article.dtos.ArticleHomeDto;
-import com.heima.model.article.pojos.ApArticle;
-import com.heima.model.common.dtos.ResponseResult;
+import com.itheima.common.constants.ArticleConstants;
+import com.itheima.model.article.dtos.ArticleHomeDto;
+import com.itheima.model.article.pojos.ApArticle;
+import com.itheima.model.common.dtos.ResponseResult;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

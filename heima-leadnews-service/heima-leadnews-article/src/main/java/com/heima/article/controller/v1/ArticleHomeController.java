@@ -1,9 +1,10 @@
 package com.heima.article.controller.v1;
 
+
 import com.heima.article.service.ApArticleService;
-import com.heima.common.constants.ArticleConstants;
-import com.heima.model.article.dtos.ArticleHomeDto;
-import com.heima.model.common.dtos.ResponseResult;
+import com.itheima.common.constants.ArticleConstants;
+import com.itheima.model.article.dtos.ArticleHomeDto;
+import com.itheima.model.common.dtos.ResponseResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
